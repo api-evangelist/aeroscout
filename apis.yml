@@ -1,7 +1,26 @@
 aid: aeroscout
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aeroscout.png
 name: Aeroscout
-description: Aeroscout is a company surfaced as a portfolio company of menlo-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: AeroScout was an Israeli real-time location systems (RTLS) company that built
+  Wi-Fi-based RFID tags, exciters, and location receivers together with the MobileView software
+  platform to track the location, condition, and status of mobile assets and people, primarily
+  for hospitals and healthcare providers. Menlo Ventures led its Series C round in 2007. AeroScout
+  was acquired by Stanley Black & Decker in 2012 (~$240M) and folded into Stanley Healthcare; the
+  product line and brand now live under Securitas Healthcare / Securitas Technology. AeroScout no
+  longer operates as an independent company and publishes no public developer portal, OpenAPI, or
+  SDKs — integration with the on-premise AeroScout Engine has historically been via a SOAP API for
+  enterprise/HIS systems rather than a public web API.
 url: https://raw.githubusercontent.com/api-evangelist/aeroscout/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,22 @@ x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: stanley-black-and-decker
+x-acquired-year: 2012
+x-successor: securitas-healthcare
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Real-Time Location Systems
+- RTLS
+- RFID
+- Asset Tracking
+- Healthcare
+- Wi-Fi
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://aeroscout.com
+  url: https://www.aeroscout.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
