@@ -62,6 +62,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/stanley-black-and-decker/
+  name: Stanley Black & Decker
+  x-relationship: acquired
+  x-evidence: "AeroScout was acquired by Stanley Black & Decker in 2012 (~$240M) and folded into Stanley Healthcare; the product line and brand now live under Securitas Healthcare / Securitas Technology."
 - type: Website
   url: https://www.aeroscout.com
 x-enrichment:
