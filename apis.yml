@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.aeroscout.com', status: 301, note: 'declared website redirects to https://www.securitastechnology.com/solutions/real-time-location-systems — a different registrable domain (aeroscout.com -> securitastechnology.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aeroscout.png
 name: Aeroscout
 description: AeroScout was an Israeli real-time location systems (RTLS) company that built
